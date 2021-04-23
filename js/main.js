@@ -11,6 +11,6 @@ window.parent.postMessage(
   "*"
 );
 window.parent.postMessage(
-  { name: window.name, type: "PluginRegisterEvent", slot: slot },
-  "task-details"
+  { name: window.name, type: "PluginRegisterEvent", slot: "task-details" },
+  "*"
 );
